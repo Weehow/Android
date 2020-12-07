@@ -12,3 +12,6 @@
     <!-- 定义按钮默认的图片 -->
     <item android:drawable = "@drawable/filemanage_public_new" />
   </selector>
+  
+2、设置TextView隐藏
+xml: android:visibility="gone"(隐藏且不保留空间) 还要与之关联Java show_time.setVisibility(View.GONE);
