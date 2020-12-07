@@ -14,4 +14,7 @@
   </selector>
   
 2、设置TextView隐藏
-xml: android:visibility="gone"(隐藏且不保留空间) 还要与之关联Java show_time.setVisibility(View.GONE);
+  xml: android:visibility="gone"(隐藏且不保留空间) 还要与之关联Java show_time.setVisibility(View.GONE);
+
+3、Android Studio误删文件的话怎么恢复
+  右键主文件夹→选择local history→show history→找到你想恢复的点击左上角resevert
