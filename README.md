@@ -18,3 +18,5 @@
 
 3、Android Studio误删文件的话怎么恢复
   右键主文件夹→选择local history→show history→找到你想恢复的点击左上角resevert
+
+4、TextClock时间控件必须成对使用，例：<TextClock></TextClock>
