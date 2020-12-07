@@ -19,4 +19,6 @@
 3、Android Studio误删文件的话怎么恢复
   右键主文件夹→选择local history→show history→找到你想恢复的点击左上角resevert
 
-4、TextClock时间控件必须成对使用，例：<TextClock></TextClock>
+4、TextClock时间控件必须成对使用，例：<TextClock></TextClock> 
+  每秒刷新可参考 https://blog.csdn.net/qq_36771930/article/details/107381884?utm_medium=distribute.pc_relevant.none-task-blog-OPENSEARCH-4.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-4.control
+  手机为12小时制的使用以下两句强行将格式转为24小时制 android:format12Hour="HH:mm"  android:format24Hour="HH:mm"
