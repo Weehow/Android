@@ -22,3 +22,5 @@
 4、TextClock时间控件必须成对使用，例：<TextClock></TextClock> 
   每秒刷新可参考 https://blog.csdn.net/qq_36771930/article/details/107381884?utm_medium=distribute.pc_relevant.none-task-blog-OPENSEARCH-4.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-4.control
   手机为12小时制的使用以下两句强行将格式转为24小时制 android:format12Hour="HH:mm"  android:format24Hour="HH:mm"
+
+5、Button按钮背景颜色为默认蓝紫色且设置颜色无效，修改themes.xml下的parent="Theme.MaterialComponents.DayNight.DarkActionBar"改为parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge"
