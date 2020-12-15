@@ -24,3 +24,5 @@
   手机为12小时制的使用以下两句强行将格式转为24小时制 android:format12Hour="HH:mm"  android:format24Hour="HH:mm"
 
 5、Button按钮背景颜色为默认蓝紫色且设置颜色无效，修改themes.xml下的parent="Theme.MaterialComponents.DayNight.DarkActionBar"改为parent="Theme.MaterialComponents.DayNight.DarkActionBar.Bridge"
+
+6、使用layout_columnWeight必须所有行都设置此属性，否则空间会回到（0,0）
