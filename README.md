@@ -28,3 +28,5 @@
 6、使用layout_columnWeight必须所有行都设置此属性，否则空间会回到（0,0）
 
 7、图片资源存储不当的话，会引起应用运行直接停止
+
+8、Plugin Error: Plugin "Android WiFi ADB" is incompatible (supported only in IntelliJ IDEA). 解决方法：在 C:\Users\Administrator\AppData\Roaming\Google\AndroidStudio4.1\plugins 下找到对应插件删除即可
