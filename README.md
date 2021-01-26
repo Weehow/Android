@@ -30,3 +30,5 @@
 7、图片资源存储不当的话，会引起应用运行直接停止
 
 8、Plugin Error: Plugin "Android WiFi ADB" is incompatible (supported only in IntelliJ IDEA). 解决方法：在 C:\Users\Administrator\AppData\Roaming\Google\AndroidStudio4.1\plugins 下找到对应插件删除即可
+
+9、解决AS使用切换到其他窗口再切换回来光标位置跑到本行最前边的情况：File → Setting → Editor → Virtual Space(After the end of line√)
