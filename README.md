@@ -34,3 +34,5 @@
 9、解决AS使用切换到其他窗口再切换回来光标位置跑到本行最前边的情况：File → Setting → Editor → Virtual Space(After the end of line√)
 
 10、*悬浮窗权限问题 ①首先确定是否在AndroidManifest添加权限<uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> ②build.gradle(Module):targetSdkVersion改为22
+
+11、Android Studio4.1.2 ButterKnife插件使用问题plugins下载Android-ButterKnife-Injections.jar，用户\AppData\Roaming\Google\AndroidStudio4.1\plugins下面的ButterKnife移到你AS安装路径下如：D:\Android\androidstudio\plugins
