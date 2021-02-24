@@ -38,3 +38,20 @@
 11、Android Studio4.1.2 ButterKnife插件使用问题plugins下载Android-ButterKnife-Injections.jar，用户\AppData\Roaming\Google\AndroidStudio4.1\plugins下面的ButterKnife移到你AS安装路径下如：D:\Android\androidstudio\plugins
 
 12、*查看反编译文件的数值可对应R文件进行查找
+
+13、AS报错：Attempt to invoke virtual method 'void android.widget.ImageView.setImageResource(int)' on a null object reference
+
+出现此种错误一般由两个原因组成：①控件ID没对应例如
+
+View view = LayoutInflater.from((Context) SpotlightActivity.this.getApplication()).inflate(R.layout.activity_background_popup, null);
+                
+                iv_black = (ImageView) view.findViewById(R.id.iv_black);
+                iv_red = (ImageView) view.findViewById(R.id.iv_red);
+                iv_blue = (ImageView) view.findViewById(R.id.iv_blue);
+                iv_custom = (ImageView) view.findViewById(R.id.iv_custom);
+               
+               此处可能由于忘记写view而导致报错
+               
+               ②View view = LayoutInflater.from((Context) SpotlightActivity.this.getApplication()).inflate(R.layout.activity_background_popup, null);
+              
+               可能加载的布局界面不对，而导致没找到ID报错
