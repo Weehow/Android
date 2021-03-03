@@ -58,3 +58,14 @@ View view = LayoutInflater.from((Context) SpotlightActivity.this.getApplication(
                
 
 14、图片资源放在drawable-hdpi下能保持图片尺寸不变
+
+15、android studio 打包报错：Generate Signed APK: Errors while building APK. You can find the errors in the 'Messages' view.
+找到app文件下的build.gradle文件，之后在该文件中的android加入如下代码即可：
+
+android {
+......
+lintOptions {
+    checkReleaseBuilds false
+    abortOnError false
+    }
+｝
