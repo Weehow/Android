@@ -55,3 +55,6 @@ View view = LayoutInflater.from((Context) SpotlightActivity.this.getApplication(
                ②View view = LayoutInflater.from((Context) SpotlightActivity.this.getApplication()).inflate(R.layout.activity_background_popup, null);
               
                可能加载的布局界面不对，而导致没找到ID报错
+               
+
+14、图片资源放在drawable-hdpi下能保持图片尺寸不变
