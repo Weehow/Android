@@ -42,9 +42,8 @@
 13、AS报错：Attempt to invoke virtual method 'void android.widget.ImageView.setImageResource(int)' on a null object reference
 
 出现此种错误一般由两个原因组成：①控件ID没对应例如
-
-View view = LayoutInflater.from((Context) SpotlightActivity.this.getApplication()).inflate(R.layout.activity_background_popup, null);
                 
+                View view = LayoutInflater.from((Context) SpotlightActivity.this.getApplication()).inflate(R.layout.activity_background_popup, null);
                 iv_black = (ImageView) view.findViewById(R.id.iv_black);
                 iv_red = (ImageView) view.findViewById(R.id.iv_red);
                 iv_blue = (ImageView) view.findViewById(R.id.iv_blue);
@@ -69,3 +68,5 @@ lintOptions {
     abortOnError false
     }
 ｝
+
+16、快速输入if else等模块按ctrl + alt + T
