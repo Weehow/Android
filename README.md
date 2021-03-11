@@ -70,3 +70,5 @@ lintOptions {
 ｝
 
 16、快速输入if else等模块按ctrl + alt + T
+
+17、Windows7 查看MD5 cmd下切换到存储路径输入certutil -hashfile 文件名 MD5
