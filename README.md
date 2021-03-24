@@ -74,3 +74,5 @@ lintOptions {
 17、Windows7 查看MD5 cmd下切换到存储路径输入certutil -hashfile 文件名 MD5
 
 18、gradlew processDebugManifest --stacktrace查看清单文件错误
+
+19、浏览器快速使用各大引擎搜索，在地址栏输入设置的搜索关键词按Tab即可
