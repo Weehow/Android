@@ -76,3 +76,8 @@ lintOptions {
 18、gradlew processDebugManifest --stacktrace查看清单文件错误
 
 19、浏览器快速使用各大引擎搜索，在地址栏输入设置的搜索关键词按Tab即可
+
+20、Android软键盘关闭输入问题
+  第一步：在AndroidManifest.xml的文件中声明对应的Activity时加上android:windowSoftInputMode属性，android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+  第二部：InputMethodManager inputMethodManager = (InputMethodManager) getSystemService(Context.INPUT_METHOD_SERVICE);
+                                    inputMethodManager.hideSoftInputFromWindow(builder.message.getWindowToken(), 0);(builder.message为你的控件)
